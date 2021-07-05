@@ -1,0 +1,94 @@
+.score .label {
+    width: 11vw;
+    height: 96%;
+    background-image: url(../../../бумага.png);
+    background-size: auto 100%;
+    background-color: rgba(1, 1, 1, 0);
+    border: 0px;
+    border-radius: 1vw;
+    color: black;
+    font-size: 0.95vw;
+    font-weight: bold;
+    padding-left: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 9vw;
+    border-radius: 0.9vw;
+}
+
+.game .container {
+    display: block;
+    width: 94%;
+}
+
+.game .container div {
+    height: 14vw;
+    display: flex;
+    align-items: center;
+}
+
+.computer {
+    width: 100%;
+    padding-left: 2.8%;
+    justify-content: center;
+}
+
+.computer img {
+    margin-left: -5vw;
+}
+
+.mast {
+    margin-left: 1.8vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0px;    
+}
+
+.usedCard {
+    width: 68%;
+    float: left;
+}
+
+.usedCard .usedCard_1 {
+    width: 100%;
+}
+
+.usedCard div img {
+    margin-left: -5vw;
+}
+
+.finish_corse {
+    width: 22%;
+    float: left;
+}
+
+.finish_corse button {
+    width: 9vw;
+    height: 92%;
+    background-image: url(../../../карта.png);
+    background-size: 9vw;
+    background-color: rgba(1, 1, 1, 0);
+    border: 0px;
+    border-radius: 1vw;
+    color: black;
+    font-size: 1.1vw;
+    font-weight: bold;
+}
+
+.finish_corse button:hover {
+    color: white;
+}
+
+.user {
+    width: 100%;
+    padding-left: 2.8%;
+    justify-content: center;
+}
+
+.user img {
+    margin-left: -5vw;
+}

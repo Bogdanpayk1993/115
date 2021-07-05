@@ -1,0 +1,34 @@
+.First_rulet {
+    height: 84vh;
+    margin-top: 4vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Second_rulet {
+    width: 90%;
+    height: 36vw;
+    border-radius: 3vw;
+    padding: 0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Third_rulet {
+    width: 99%;
+    height: 94.4%;
+    border-radius: 3vw;
+    background-image: url(../../../бумага_2.png);
+    background-size: auto;
+    background-position: center;
+    padding: 1vw;
+    text-align: left;
+    font-size: 1.4vw;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}

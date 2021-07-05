@@ -1,0 +1,73 @@
+.Header .First {
+    margin-left: 10%;
+    padding-top: 2vh;
+    width: 20%;
+    background-image: url(../../бумага.png);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Header .First h1 {
+    margin: 0vw;
+}
+
+.Header .Second {
+    width: 70%;
+    padding-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Header .Second div {
+    background-image: url(../../бумага_1.png);
+    padding-top: 8vh;
+    color: black;
+    margin-block: auto;
+}
+
+.Header .Second div p {
+    float: left;
+    margin: 0px;
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    cursor: default;
+}
+
+.Header .Second div p:hover {
+    text-decoration: underline;
+}
+
+#leave_a_comment {
+    margin-left: 1vw;
+    font-size: 1vw;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 0.2vw;
+    margin-bottom: 0.3vw;
+    margin-right: 0.5vw;
+    -webkit-animation: leave_a_comment 2s linear infinite;
+    animation: leave_a_comment 2s linear infinite;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#leave_a_comment:hover {
+    text-decoration: underline;
+}
+
+@-webkit-keyframes leave_a_comment {
+    0% { background-color: rgba(255, 0, 0, 0.6); }
+    50% { background-color: rgba(255, 0, 0, 1); }
+    100% { background-color: rgba(255, 0, 0, 0.6); }
+}
+
+@keyframes leave_a_comment {
+    0% { background-color: rgba(255, 0, 0, 0.6); }
+    50% { background-color: rgba(255, 0, 0, 1); }
+    100% { background-color: rgba(255, 0, 0, 0.6); }
+}
+
+

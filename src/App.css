@@ -1,0 +1,57 @@
+html {
+  background-image:url("./background.jpg");
+  background-size: auto 100vh;
+  color: white;
+}
+
+.App {
+  font-family: kursiv_c;
+  text-align: center;
+}
+
+.App button {
+  font-family: kursiv_c;
+  outline: none;
+}
+
+.App .Header {
+  width: 99%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App .Header h1 {
+  margin: 0vw;
+  font-size: 6vw;
+}
+
+.App .score {
+  height: 4vh;
+  margin: 0vw;
+}
+
+.App .game {
+  width: 100%;
+  height: 88vh;
+  padding: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@font-face {
+  font-family: kursiv_c;
+  src: url(./Avdira_Italic.otf);
+}
